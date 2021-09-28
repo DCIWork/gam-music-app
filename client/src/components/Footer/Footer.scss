@@ -1,0 +1,232 @@
+// footer{
+//     // background: linear-gradient(to right, #184fae80, #9f34a98e) !important;     
+//     // color:#ffe206;
+//     // height: auto;
+//     h2{text-align: center !important;}
+//     opacity: 0.8;
+//     max-height: 900px;
+//     // margin-top: 0px;
+// }
+footer{
+    margin-top: 50px;
+}
+
+// // h2{
+// //     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+// // }
+// .location{
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+// }
+
+// .copyright{
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+// }
+
+// .social-list {
+//     display: inline-flex
+// }
+
+// .social-list li {
+//     list-style: none;
+//     margin-right: 10px
+// }
+
+// .maincard {
+//     position: relative;
+//     width: 150px;
+//     height: 80px;
+//     margin: 10px;
+// }
+
+// .thecard {
+//     position: absolute;
+//     width: 100%;
+//     height: 100%;
+//     transform-style: preserve-3d;
+//     transition: all 0.8s ease
+// }
+
+// .thecard:hover {
+//     transform: rotateY(180deg)
+// }
+
+// .thefront {
+//     position: absolute;
+//     width: 100%;
+//     height: 100%;
+//     background-color: hidden;
+//     color: #fff;
+//     border-radius: 50%;
+//     cursor: pointer;
+//     border: 1px solid #eee;
+//     box-shadow: 5px 6px 6px 2px #111213;
+//     padding: 4px
+// }
+
+// .theback {
+//     position: absolute;
+//     width: 100%;
+//     height: 100%;
+//     cursor: pointer;
+//     background-color: hidden;
+//     color: #fff;
+//     border-radius: 60%;
+//     transform: rotateY(180deg);
+//     border: 1px solid #eee;
+//     box-shadow: 2px 4px 6px 2px #e9ecef;
+//     padding: 8px
+// }
+
+// .social-text small {
+//     font-size: 20px
+// }
+
+// @media (max-width:700px) {
+//     .social-list {
+//         display: block
+//     }
+// }
+
+// .facebook {
+//     background: #0051ff
+// }
+
+// .instagram {
+//     background: #3f729b
+// }
+
+// .youtube {
+//     background: #ff0000
+// }
+
+// .whatsapp {
+//     background: #11b508
+// }
+
+// .pinterest {
+//     background: #8f2226
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+// .footer-container{
+//     height: 100px;
+//     background: linear-gradient(to right, #f7971e, #ffd200);
+//     color: white;
+//     text-align: center;
+//  }
+
+// .footer{
+//     background: linear-gradient(to right, #f7971e, #ffd200);
+//     color:#41295a;
+//     height: auto;
+//     h2{text-align: center !important;}
+//     opacity: 0.8;
+    
+//     .links{
+//         text-align: center !important;
+//       ul {list-style-type: none;}
+//       li a{
+//         color: #41295a;
+//         transition: color .2s;
+//         &:hover{
+//           text-decoration:none;
+//           color:#4180CB;
+//           }
+//       }
+//     }  
+//     .about-company{
+//       i{font-size: 25px;}
+//       a{
+//         color:#41295a;
+//         transition: color .2s;
+//         &:hover{color:#4180CB}
+//       }
+//     } 
+//     .location{
+//       i{font-size: 18px;}
+//       text-align: center !important;
+//     }
+//     .copyright p{
+//         border-top:1px solid rgba(255,255,255,.1);
+//         text-align: center !important;
+//     } 
+// }
+
+
+
+
+.social-icons {
+    display: flex;
+    list-style: none
+}
+
+.social-icons li a {
+    padding: 20px;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    color: rgb(191, 0, 255);
+    margin-right: 16px;
+    position: relative;
+    text-align: center;
+    line-height: 70px;
+    width: 100px;
+    height: 100px
+}
+
+.social-icons li a::before,
+.social-icons li a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    transition: .5s linear
+}
+
+.social-icons li a:hover i {
+    transform: scale(1.1)
+}
+
+.social-icons li a:hover::before {
+    transform: skewX(20deg);
+    border-left: 3px solid;
+    border-right: 3px solid
+}
+
+.social-icons li a:hover::after {
+    transform: skewY(-25deg);
+    border-top: 3px solid;
+    border-bottom: 3px solid
+}
+
+
+@media (max-width:700px) {
+    ul.social-icons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        overflow: hidden;
+        // margin-top: 40px;
+        padding-left: 2px;
+        margin: 0 auto;
+    }
+}
+
+

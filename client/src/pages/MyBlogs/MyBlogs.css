@@ -1,0 +1,27 @@
+.Blog {
+  display: flex;
+  width: 900px;
+  background: linear-gradient(to right, #184faec9, #9f34a9cf) !important; 
+  border: 1px solid rgba(58, 57, 33, 0.365);
+  box-shadow: 2px 6px 6px 2px #111213;
+  padding: 5px;
+}
+.myblog-container{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.BlogContent {
+  width: 70%;
+}
+.Actions {
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+}
+.btn{
+  margin: 10px !important;
+}

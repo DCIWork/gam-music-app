@@ -1,0 +1,93 @@
+.Card {
+    margin-bottom: 25px;
+     max-width: 100%;
+    width: 20rem;
+    position: relative;
+    padding: 30px;
+    margin-top: 4rem;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+     /* animation: skew 5s infinite;
+     transform: skew(3deg);
+     animation-direction: alternate;
+     opacity: .7; */
+     /* animation: roll 5s infinite;
+     animation-timing-function: steps(10);
+     animation-duration: 10s;
+     transform: rotate(30deg);
+    opacity: .7; */
+     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 10px 20px #cacaca, -10px -10px 30px #020101;
+
+  }
+.card-content {
+   font-weight: 100 !important;
+  font-size: 1em !important;
+  background-color: #911e9185;
+   height: 50px;
+}
+.card-title{
+  padding: 30px !important;
+  color: #1e2f91;
+  font-size: 2.5em !important;
+  font-family: 'Changa One', sans-serif;
+  font-weight: 900;
+}
+
+  .Card .Alert {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: yellow;
+  }
+  
+  .CardImg {
+    height: 200px;
+    width: 83%;
+    margin-left: 26px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(1.2) ;
+    transition: all 0.8s ease;
+  }
+  .CardImg:hover{
+    transform: scale(1.08);
+  }
+  .Card .CardViews {
+    background: rgba(255, 6, 6, 0.708);
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .NewCard {
+    border: 1px solid green;
+  }
+
+
+ @keyframes skew {
+   0% {
+     transform: skew(5deg, 5deg);
+   }
+   100% {
+      transform: skew(-5deg, -5deg);
+    }
+  }
+
+  @keyframes roll {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  
+
+
+
+  
+  
+  

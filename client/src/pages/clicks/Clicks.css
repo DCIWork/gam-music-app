@@ -1,0 +1,38 @@
+.social-buttons {
+    margin-top: 200px
+}
+
+.social-buttons button {
+    margin-right: 10px
+}
+
+.neo-button {
+    width: 50px;
+    height: 70px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: all 2s;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #884faf, #724394);
+    box-shadow: 6px 6px 12px #6c3f8b, -6px -6px 12px #9255bd
+}
+
+.neo-button:hover {
+    width: 70px;
+    height: 70px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #884faf, #724394);
+    box-shadow: inset 6px 6px 13px #6c3f8b, inset -6px -6px 13px #9255bd
+}
+
+.neo-button .fa {
+    color: #eee;
+    transition: all 2s
+}
+
+.neo-button:hover .fa {
+    transform: rotate(360deg)
+}

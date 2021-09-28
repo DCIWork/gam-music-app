@@ -1,0 +1,251 @@
+
+  /* .carousel-item {
+      margin: 0 auto;
+
+  } */
+
+  // h1{
+  //   text-align: center;
+  //   font-size: 18px;
+  // }
+
+.carousel-inner{
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 3px 7px 24px 3px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, 3px 7px 24px 3px rgba(0,0,0,0);
+object-fit: cover;
+}
+.carousel-wrapper{
+    margin-bottom: 20px;
+    width: 70%;
+    margin: auto;
+    z-index: 999;
+}
+
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.form-text{
+  color: rgb(255, 255, 0);
+}
+ 
+
+
+
+@media screen and (min-width: 360px) {
+  .carousel-wrapper{
+     margin-top: 30px;
+  }
+}
+
+//image styling
+.all {
+  display: flex;
+  perspective: 10px;
+  transform: perspective(300px) rotateX(20deg);
+  will-change: perspective;
+  perspective-origin: center center;
+  transition: all 1.3s ease-out;
+  justify-content: center;
+  transform-style: preserve-3d;
+  margin-top: 90px;
+}
+.all:hover {
+  perspective: 1000px;
+  transition: all 1.3s ease-in;
+  transform: perspective(10000px) rotateX(0deg);
+  .text {
+    opacity: 1;
+  }
+  & > div {
+    opacity: 1;
+    transition-delay: 0s;
+  }
+  .explainer {
+    opacity: 0;
+  }
+}
+
+.left, .center, .right, .lefter, .righter {
+  width: 200px;
+  height: 150px;
+  transform-style: preserve-3d;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  box-shadow: 0 0 20px 5px rgba(100, 100, 255, .4);
+  
+  transition: all .3s ease;
+  transition-delay: 1s;
+  position: relative;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  // background-color: #58d;
+  // background-color: #911e9185;
+  cursor: pointer;
+  background-blend-mode: color-burn;
+  
+  &:hover {
+    box-shadow: 0 0 30px 10px rgba(222, 222, 242, 0.6);
+  // background-color: #ccf;
+  
+  }
+}
+.text {
+  transform: translateY(30px);
+  opacity: 0;
+  transition: all .3s ease;
+  bottom: 0;
+  left: 5px;
+  position: absolute;
+  will-change: transform;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(100, 100, 255, .6)
+}
+.lefter {
+  transform: translateX(-60px) translateZ(-50px) rotateY(-10deg);
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.dancehallmag.com%2Fassets%2F2021%2F01%2Fpopcaan-1.jpg&f=1&nofb=1);
+}
+.left {
+  transform: translateX(-30px) translateZ(-25px) rotateY(-5deg);
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.mpasho.co.ke%2Fwp-content%2Fuploads%2F2019%2F03%2Fdemarco-1-1024x683.jpg&f=1&nofb=1);
+}
+.center {
+  opacity: 1;
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi1.wp.com%2Fwww.ghbeatz.com%2Fwp-content%2Fuploads%2F2020%2F09%2FVybz-Kartel-Wap-Freestyle.jpg%3Ffit%3D1341%252C1287%26ssl%3D1&f=1&nofb=1);
+}
+.right {
+  transform: translateX(30px) translateZ(-25px) rotateY(5deg);
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbuzz-caribbean.com%2Fapp%2Fuploads%2F2020%2F01%2FShenseea-Top-10.jpg&f=1&nofb=1);
+}
+.righter {
+  transform: translateX(60px) translateZ(-50px) rotateY(10deg);
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pieradio.co.uk%2Fwp-content%2Fuploads%2F2021%2F05%2Fspice-dancehall-culture-sean-paul-shaggy-new-reggae--e1620298594741.jpg&f=1&nofb=1);
+}
+.explainer {
+  font-weight: 300;
+  font-size: 2rem;
+  color: #fff;
+  transition: all .6s ease;
+  width: 100%;
+  height: 100%;
+  background-color: #911e9185;
+  // background-image: radial-gradient(circle at center top, #cce, #33a);
+  // background-image: radial-gradient(circle at center top, #33a, #911e9185);
+  border-radius: 10px;
+  text-shadow: 0 0 10px rgba(255, 255, 255, .8);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.ref {
+  background-color: #000;
+  background-image: linear-gradient(to bottom, rgb(0, 26, 221), rgb(160, 0, 204));
+  border-radius: 3px;
+  padding: 7px 10px;
+  position: absolute;
+  font-size: 16px;
+  bottom: 10px;
+  right: 10px;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 0 0 3px rgba(0, 0, 0, .4);
+  &::first-letter {
+    font-size: 12px;
+  }
+}
+
+
+
+//photo styling
+.blocks {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+
+  .block {
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    transform: perspective(600px) rotateY(-30deg);
+    transition: transform .3s;
+
+    img {
+      width: auto;
+      max-width: 100%;
+      
+    }
+
+    .overlay {
+      position: fixed;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 2;
+      background-color: rgba(0, 0, 0, .5);
+      opacity: 0;
+      transition: opacity .3s ease;
+      transform:translate3d(0,0,0);
+
+      img {
+        width: auto;
+        max-width: 50%;
+      }
+    }
+
+    &.hover, &:hover {
+      transform: rotateY(0);
+      cursor: pointer;
+
+      .overlay {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .all {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .all {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+}
+@media screen and (max-width: 300px) {
+  .all {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+}

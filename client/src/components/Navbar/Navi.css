@@ -1,0 +1,101 @@
+/* #nav-colors
+#pink {
+  background: -webkit-gradient(linear, left top, right top, from(#ff5858), to(#f857a6));
+  background: linear-gradient(to right, #ff5858, #f857a6);
+}
+
+#red {
+  background: -webkit-gradient(linear, left top, right top, from(#d31027), to(#ea384d));
+  background: linear-gradient(to right, #d31027, #ea384d);
+}
+
+#purple {
+  background: -webkit-gradient(linear, left top, right top, from(#41295a), to(#2f0743));
+  background: linear-gradient(to right, #41295a, #2f0743);
+}
+
+#blue {
+  background: -webkit-gradient(linear, left top, right top, from(#396afc), to(#2948ff));
+  background: linear-gradient(to right, #396afc, #2948ff);
+}
+
+#green {
+  background: -webkit-gradient(linear, left top, right top, from(#add100), to(#7b920a));
+  background: linear-gradient(to right, #add100, #7b920a);
+}
+
+#yellow {
+  background: -webkit-gradient(linear, left top, right top, from(#f7971e), to(#ffd200));
+  background: linear-gradient(to right, #f7971e, #ffd200);
+}
+
+#orange {
+  background: -webkit-gradient(linear, left top, right top, from(#e43a15), to(#e65245));
+  background: linear-gradient(to right, #e43a15, #e65245);
+}
+
+#font-colors > #white {
+  background: white;
+}
+
+#black {
+  background: black;
+}
+
+#edges > #rounded {
+  background: black;
+}
+
+#square {
+  background: black;
+  border-radius: 0px;
+}
+
+#rounded, #square:hover {
+  color: white;
+}
+
+.navbar {
+  border: 0;
+  border-radius: 0;
+  opacity: 0.8;
+}
+
+.Avatar {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.nav-link {
+  max-height: 50px;
+  width: auto;
+  font-size: 18px;
+  font-weight: 100;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  word-spacing: 15px;
+}
+
+.nav-item-link {
+  color: white !important;
+  margin-left: 25px !important;
+  transition: .2s ease-in-out !important;
+} */
+
+
+/* #nav-section{
+    font-size: 1.5rem;
+    margin: 5% 7%;
+}
+.navbar-brand {
+    font-size: 2rem;
+    transition: .2s ease-in-out;
+}
+.navbar-brand:hover {
+    transform: scale(1.1);
+}
+
+.nav-link:hover {
+    transform: scale(1.1);
+} */
+
